@@ -1,0 +1,24 @@
+{
+  "presets": [
+    ["env", {
+      "module": false,
+      "useBuiltIns" : true
+    }],
+    "react"
+  ],
+  "env": {
+    "development": {
+      "presets": ["react-hmre"]
+    },
+    "test": {
+      "presets": ["power-assert"]
+    }
+  },
+  "plugins": [
+    "syntax-dynamic-import",
+    "transform-class-properties",
+    "transform-flow-strip-types",
+    "transform-runtime",
+    "transform-object-rest-spread"
+  ]
+}

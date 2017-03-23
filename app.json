@@ -1,0 +1,17 @@
+{
+  "name": "syntax-dynamic-import-react-sample",
+  "description": "",
+  "keywords": [],
+  "website": "",
+  "repository": "https://github.com/zenoplex/syntax-dynamic-import-react-sample/",
+  "env": {
+    "NODE_MODULES_CACHE": {
+      "value": "true",
+      "required": true
+    },
+    "NPM_CONFIG_PRODUCTION": {
+      "value": "false",
+      "required": true
+    }
+  }
+}
