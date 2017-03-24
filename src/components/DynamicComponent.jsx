@@ -2,6 +2,6 @@
 import React from 'react';
 
 const DynamicComponent = () =>
-  <div>This is dynamic component</div>;
+  <div style={{ backgroundColor: 'green' }}>This is dynamic component</div>;
 
 export default DynamicComponent;

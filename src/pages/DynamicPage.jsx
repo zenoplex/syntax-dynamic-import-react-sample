@@ -3,12 +3,12 @@ import React from 'react';
 import AsyncContainerComponent from 'components/AsyncContainerComponent';
 import CommonComponent from 'components/CommonComponent';
 
-const Home = () =>
+const DynamicPage = () =>
   <div>
-    <h1>HOME</h1>
+    <h1>DynamicPage</h1>
 
     <CommonComponent />
     <AsyncContainerComponent />
   </div>;
 
-export default Home;
+export default DynamicPage;

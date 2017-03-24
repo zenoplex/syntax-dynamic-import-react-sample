@@ -11,9 +11,9 @@ const Panel = ({ AsyncModule }: ComposedProps) =>
   <div>
     <div>PANEL</div>
 
-    {AsyncModule &&
-      <AsyncModule />
-    }
+    {AsyncModule && <AsyncModule />}
+
+    {!AsyncModule && <p>loading</p>}
   </div>;
 
 export default compose(
